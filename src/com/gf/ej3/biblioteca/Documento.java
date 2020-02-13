@@ -47,7 +47,7 @@ public class Documento {
 
     @Override
     public String toString() {
-        return "Documento{" + "Cod=" + Cod + '}';
+        return "Documento{" + "Cod=" + Cod + " Disponible: "+ disponible+ '}';
     }
     
     

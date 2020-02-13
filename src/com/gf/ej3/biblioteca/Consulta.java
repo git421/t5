@@ -61,8 +61,13 @@ public class Consulta {
         doc.setDisponible(false);
     }
     
-    public void devolver(Documento doc){
-        doc.setDisponible(true);
+    public void devolver(){
+        if(this.doc.isDisponible()){
+            System.out.println("No se puede devolver");
+        }else{
+            this.doc.setDisponible(true);
+        }
+        
     }
     
     

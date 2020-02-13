@@ -24,6 +24,9 @@ public class Test {
         System.out.println(revista1);
         Consulta consulta1 = new Consulta(revista1, LocalDate.now(), "ASDF2134");
         Consulta consulta2 = new Consulta(revista1, LocalDate.now(), "ASDF213a4");
+        consulta1.devolver();
+        Consulta consulta3 = new Consulta(revista1, LocalDate.now(), "ASDF213a4");
+        System.out.println(revista1);
         
     }
 }
